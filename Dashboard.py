@@ -9,7 +9,7 @@ st.set_page_config(page_title="Dengue Dashboard", layout="wide")
 # Load data
 # This line loads our dengue data from a CSV file
 # If there's an error (like missing file), the app shows a message
-DATA_PATH = "C:/Users/irish/OneDrive/Documents/dengue_dashboard/ph_dengue_cases_cleaned_2016-2020.csv"
+DATA_PATH = "ph_dengue_cases_cleaned_2016-2020.csv"
 try:
     df = pd.read_csv(DATA_PATH)
 except Exception as e:
